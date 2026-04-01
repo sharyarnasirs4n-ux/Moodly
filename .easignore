@@ -1,0 +1,13 @@
+# Ignore macOS system folder
+Library/
+**/Library/
+
+# Ignore logs & junk
+*.log
+*.tmp
+.DS_Store
+
+# Ignore iOS/Android build stuff
+ios/Pods/
+android/.gradle/
+node_modules/
